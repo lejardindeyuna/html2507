@@ -14,6 +14,11 @@
         #travel {
             width: 1200px;
             margin: 0 auto;
+            border: 2px solid #ccc;
+            padding: 10px 30px;
+            box-sizing: border-box;
+            background-color: #ffffff;
+            padding-bottom: 40px;
         }
 
         .title-text {
@@ -31,7 +36,9 @@
         }
 
         .travel-list {
-            padding-top: 20px;
+            padding-top: 5px;
+            overflow: hidden;
+            padding-left: 50px;
         }
 
         .travel-card img {
@@ -42,6 +49,26 @@
 
         .travel-card p {
             font-size: 16px;
+        }
+
+        .travel-card {
+            width: 250px;
+            height: 340px;
+            border: 1px solid #ccc;
+            border-radius: 20px;
+            padding: 10px;
+            box-sizing: border-box;
+            float: left;
+            margin-right: 20px;
+            text-align: center;
+            background-color: #fff;
+        }
+
+        .travel-card img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 15px;
         }
     </style>
 </head>
@@ -64,7 +91,7 @@
                 <a href="#">
                     <img src="./images/tr-2.png">
                     <h3>바다 즐기기</h3>
-                    <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p>Lorem ipsum dolor sit amet. consectetur adipisicing elit.</p>
                 </a>
             </div>
             <div class="travel-card">
@@ -81,8 +108,6 @@
                     <p>Lorem, ipsum dolor. Lorem ipsum dolor sit amet.</p>
                 </a>
             </div>
-        </div>
-    </div>
 </body>
 
 </html>
